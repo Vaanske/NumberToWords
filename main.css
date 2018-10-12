@@ -1,0 +1,52 @@
+@font-face {
+   font-family: 'Orbitron';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans|Orbitron|Roboto');
+}
+body {
+    background-color: lightblue;
+    color: white;
+}
+
+#numpad {
+    font-family: 'Roboto';
+    position: relative;
+    color: white;
+    top:auto;
+    left: auto;
+    background-color: blue;
+    border: 2px solid red;
+    height: 25px;
+    width: 80px;
+}
+.numpads :hover {
+    background-color: orange;
+}
+#chosen {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+    border: 3px solid red;
+    border-radius: 13%;
+}
+#res1 {
+    background-color: black;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 20%;
+}
+
+#resu {
+     display: inline;
+     position: relative;
+}
+
+.choice {
+    font-family: 'Orbitron';
+    background-color: orange;
+    color: white;
+    margin-top: 33px;
+    border: 3px solid red;
+    border-radius: 13%;
+}
